@@ -1,0 +1,40 @@
+ socket.on("me", (id) => setMe(id));
+
+    socket.on("callUser", ({ from, name: callerName, signal }) => {
+      setCall({ isReceivingCall: true, from, name: callerName, signal });
+    });
+
+ socket.on("me", (id) => setMe(id));
+
+    socket.on("callUser", ({ from, name: callerName, signal }) => {
+      setCall({ isReceivingCall: true, from, name: callerName, signal });
+    });
+ socket.on("me", (id) => setMe(id));
+
+    socket.on("callUser", ({ from, name: callerName, signal }) => {
+      setCall({ isReceivingCall: true, from, name: callerName, signal });
+    });
+f1jQ8VkPnDRkV-1tAAAZ
+
+
+ {/*   {(Object.keys(call).length === 0 && !callAccepted) ||
+          call.isReceivingCall ? ( */}
+            <Homepage />
+         {/*  ) : (
+            <>
+              <VideoPlayer /> */}
+              {/* <Options>
+                <Notifications />
+              </Options> */}
+        {/*     </>
+          )} */}
+
+/inside of calluser method in context
+
+
+ socket.on("callMade", (userToCall) => {
+      setPreparingCall(false);
+      setCallMade(true);
+      setTo(userToCall);
+      console.log("calling: ", userToCall);
+    });

@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\felix\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add cors express nodemon socket.io
+
+PATH: 
+  C:\Users\felix\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\felix\bin;C:\Python39\Scripts;C:\Python39;C:\Program Files\Java\jdk-12.0.2\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\php-8.0.3-nts-Win32-vs16-x64;C:\Program Files\apache-maven-3.6.3\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\heroku\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\PostgreSQL\13\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\felix\anaconda3;C:\Users\felix\anaconda3\Library\mingw-w64\bin;C:\Users\felix\anaconda3\Library\usr\bin;C:\Users\felix\anaconda3\Library\bin;C:\Users\felix\anaconda3\Scripts;C:\Users\felix\AppData\Local\Microsoft\WindowsApps;C:\Users\felix\AppData\Local\GitHubDesktop\bin;C:\Users\felix\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2020.3.2\bin;C:\Program Files\heroku\bin;C:\Users\felix\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.6.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\felix\AppData\Local\Yarn\Cache\v6\npm-lowercase-keys-2.0.0-2603e78b7b4b0006cbca2fbcc8a3202558ac9479-integrity\node_modules\lowercase-keys\.yarn-metadata.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at C:\Users\felix\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\felix\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\felix\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "vdochat-app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
